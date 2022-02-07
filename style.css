@@ -1,0 +1,284 @@
+.header {
+  height: 70px;
+  left: 0px;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+  background-color: maroon;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+ 
+}
+
+.title {
+  position: fixed;
+  text-align: center;
+  top: 399px;
+  height: 428px;
+  width: 34%;
+  right: 9px;
+  margin-left: auto;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 80;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 120px;
+  background-color: maroon;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  
+}
+
+.content {
+  display: flex;
+  flex-grow: 4;
+  min-height: 700px;
+  min-width: 600px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+
+.navigation {
+  height: 40px;
+  left: 0px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.nav1 {
+    background-color: darkgray;
+    overflow: hidden;
+   border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+.nav1 a:hover {
+    background-color: white;
+    color: maroon;
+}
+
+.nav1 a {
+    float: left;
+    text-decoration: none;
+    color: maroon;
+    text-align: center;
+    font-size: 17px;
+    padding: 14px 16px;
+}
+
+.nav1 a.active {
+    background-color: maroon;
+    color: white;
+}
+
+.profile {
+  position: fixed;
+  top: 133px;
+  left: 76%;
+  height: 260px;
+  width: 260px;
+  background: url('http://mmaimports.com/wp-content/uploads/2017/12/Francis-Ngannou.png') center no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+  border-radius:50% 50% 50% 50% ;
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  
+}
+  .body {
+  position: fixed;
+  top: 129px;
+  height: 697px;
+  width: 65%;
+  left: 8px;
+  margin-right: auto;
+  background-color: black;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  
+
+}
+
+.body2 {
+  position: fixed;
+  text-align: center;
+  top: 430px;
+  height: 385px;
+  width: 34%;
+  right: 9px;
+  margin-left: auto;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 60;
+}
+
+
+.body3 {
+  position: fixed;
+  text-align: center;
+  top: 129px;
+  height: 698px;
+  width: 39%;
+  right: 9px;
+  margin-left: auto;
+  background-color: orange;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 60;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+
+}
+  .body4 {
+  position: fixed;
+  top: 129px;
+  height: 697px;
+  width: 60%;
+  left: 8px;
+  margin-right: auto;
+  background-color: darkgray;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+    font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 40px;
+    text-align: center;
+  
+
+}
+
+  .body5 {
+  position: fixed;
+  top: 129px;
+  height: 697px;
+  width: 50%;
+  left: 8px;
+  margin-right: auto;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background: url('https://wallpapercave.com/wp/wp2307569.jpg') center no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+  
+
+}
+
+.body6 {
+  position: fixed;
+  text-align: center;
+  top: 200px;
+  height: 627px;
+  width: 38%;
+  right: 32%;
+  margin-left: auto;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 60;
+}
+
+.body7 {
+  position: fixed;
+  top: 129px;
+  height: 697px;
+  width: 30%;
+  right: 8px;
+  margin-right: auto;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background: url('https://themaclife.com/wp-content/uploads/2018/01/Francis-Ngannou-new.jpg') center no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+}
+
+
+
+
+  .pic1 {
+  position: fixed;
+  top: 129px;
+  height: 697px;
+  width: 33%;
+  left: 8px;
+  margin-right: auto;
+  background-color: orange;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+
+}
+
+  .pic2 {
+  position: fixed;
+  top: 129px;
+  height: 697px;
+  width: 33%;
+  left: 33%;
+  margin-right: auto;
+  background-color: orange;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+
+
+}
+
+  .pic3 {
+  position: fixed;
+  top: 129px;
+  height: 697px;
+  width: 33.5%;
+  left: 66%;
+  margin-right: auto;
+  background-color: orange;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+
+}
+
+.title2 {
+  position: fixed;
+  text-align: center;
+  top: 130px;
+  height: 700px;
+  width: 40%;
+  right: 31%;
+  margin-left: auto;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 80;
+}
+
+
+
+
